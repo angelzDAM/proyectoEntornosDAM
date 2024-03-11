@@ -1,0 +1,9 @@
+p.angel{
+    font-size: 18px;
+    font-style: italic;
+}
+p.angel:hover{
+    transform: scale(1.1);
+    color: rgb(118, 215, 135);
+    margin-left: 10%;
+}
