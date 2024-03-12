@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sobre Nosotros - Explore and Discover</title>
+    <link rel="stylesheet" href="../trabajoHtmlJuanRamon/styles6.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+</head>
+<body class="bodyFormulario">
+    <header>
+        <a href="paginaWeb.html"><img src="imagenes/OIG1.jfif" alt="explora y descubre"></a>
+        <nav>
+            <ul>
+                <li><a href="Destinos.html">Destinos</a></li>
+                <li><a href="sobreNosotros.html">Sobre Nosotros</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+                <li><a href="inicioSesion.html">Iniciar sesion</a></li>
+                <div class="redes-sociales">
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#"><i class="fab fa-tiktok"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                </div>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <h1>Formulario de Registro</h1>
+    <form action="#" method="post">
+        <div class="form-group">
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre" required>
+        </div>
+        <div class="form-group">
+            <label for="apellido">Apellido:</label>
+            <input type="text" id="apellido" name="apellido" required>
+        </div>
+        <div class="form-group">
+            <label for="email">Correo Electrónico:</label>
+            <input type="email" id="email" name="email" required>
+        </div>
+        <div class="form-group">
+            <label for="password">Contraseña:</label>
+            <input type="password" id="password" name="password" required>
+        </div>
+        <div class="form-group">
+            <label for="genero">Género:</label>
+            <label for="masculino">Masculino</label>
+            <input type="radio" id="masculino" name="genero" value="masculino" required>
+            <label for="femenino">Femenino</label>
+            <input type="radio" id="femenino" name="genero" value="femenino" required>
+            <label for="otro">Otro</label>
+            <input type="radio" id="otro" name="genero" value="otro" required>
+        </div>
+        <div class="form-group">
+            <label for="aceptar">Acepto los términos y condiciones</label>
+            <input type="checkbox" id="aceptar" name="aceptar" required>
+            <label for="publicidad">Acepto recibir publicidad sobre nuevos viajes</label>
+            <input type="checkbox" id="publicidad" name="publicidad">
+        </div>
+        <button type="submit">Registrarse</button>
+    </form>
+    </main>
+
+    <footer class="containerDos">
+        <p>&copy; 2024 Explore and Discover - Todos los derechos reservados</p>
+    </footer>
+</body>
+</html>
