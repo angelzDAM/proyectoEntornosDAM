@@ -1,0 +1,110 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    margin: auto;
+    width: 100%;
+    height: 120px;
+    background-color: greenyellow;
+    font-size: 20px;
+}
+
+.headercontainer{
+    justify-content: space-between;
+    display: flex;
+}
+
+.menu{
+    display: flex;
+}
+
+.titulo{
+    font-size: 40px;
+}
+
+.redes{
+    background-color: white;
+    padding: 10px 15px;
+    display: none;
+    z-index: 10;
+}
+
+.redescontainer:hover .redes{
+    display: block;
+}
+
+.redescontainer, .conocenos{
+    margin: 8px;
+    margin-top: 30px;
+}
+
+.nums{
+    background-color: white;
+    padding: 10px 15px;
+    display: none;
+    z-index: 10;
+}
+
+.conocenos:hover .nums{
+    display: block;
+}
+
+.contenedor-imagenes {
+    text-align: center; /* Centra el contenido horizontalmente */
+}
+
+.contenedor-imagenes p {
+    margin-bottom: 20px; /* Espacio inferior para separar el texto de las imágenes */
+    font-size: 35px; /* Tamaño de la fuente para el texto */
+    color: #333; /* Color del texto */
+    font-weight: bold; /* Texto en negrita */
+}
+
+.contenedor-imagenes a {
+    display: inline-block; /* Permite alinear verticalmente las imágenes */
+    margin: 0 10px; /* Margen entre las imágenes */
+}
+
+.contenedor-imagenes img {
+    vertical-align: middle; /* Alinea verticalmente las imágenes */
+    border-radius: 10px; /* Agrega bordes redondeados a las imágenes */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Agrega sombra a las imágenes */
+}
+
+/* Estilos para el enlace */
+a {
+    display: block; /* Convertir enlace en bloque para centrarlo */
+    text-align: center; /* Centrar el texto horizontalmente */
+    margin: 20px auto; /* Margen superior e inferior de 20px y centrado horizontal */
+    padding: 10px 20px; /* Añadir espacio de relleno alrededor del texto */
+    background-color: olivedrab; /* Color de fondo del enlace */
+    color: #fff; /* Color del texto */
+    text-decoration: none; /* Quitar subrayado del enlace */
+    border-radius: 5px; /* Añadir bordes redondeados */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Agregar sombra */
+    transition: background-color 0.3s; /* Transición suave para el cambio de color de fondo */
+}
+
+a:hover {
+    background-color: black; /* Cambiar color de fondo al pasar el ratón por encima */
+}
+
+/* Estilos para la línea horizontal */
+hr {
+    margin: 20px auto; /* Margen superior e inferior de 20px y centrado horizontal */
+    border: none; /* Quitar borde */
+    height: 1px; /* Altura de la línea */
+    background-color: yellowgreen; /* Color de la línea */
+    width: 50%; /* Ancho de la línea */
+}
+
+
+
+
+
+
+
+
+

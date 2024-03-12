@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <title>Mi documento web</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            background-color: #f0f0f0;
+        }
+
+        form {
+            width: 500px;
+            padding: 40px;
+            border-radius: 20px;
+            background-color: #ffffff;
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+        }
+
+        fieldset {
+            border: none;
+            padding: 0;
+            margin-bottom: 30px;
+        }
+
+        legend {
+            font-size: 28px;
+            font-weight: bold;
+            color: #068099;
+            margin-bottom: 20px;
+        }
+
+        p {
+            font-size: 20px;
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+
+        label {
+            margin-bottom: 15px;
+            color: #333;
+            font-size: 18px;
+        }
+
+        input[type="text"],
+        input[type="email"],
+        input[type="password"],
+        input[type="date"],
+        input[type="checkbox"],
+        textarea {
+            width: calc(100% - 20px);
+            padding: 15px;
+            margin-bottom: 20px;
+            border: 2px solid green;
+            border-radius: 10px;
+            font-size: 18px;
+        }
+
+        button {
+            width: 100%;
+            padding: 15px;
+            background-color: green;
+            color: #fff;
+            border: none;
+            border-radius: 10px;
+            cursor: pointer;
+            font-size: 20px;
+            transition: background-color 0.3s;
+        }
+
+        button:hover {
+            background-color: green;
+        }
+
+        a {
+            font-size: 18px;
+            text-decoration: none;
+            color: #068099;
+        }
+    </style>
+</head>
+
+<body>
+    <form>
+        <fieldset>
+            <p>¿Que prefieres?</p>
+            <label for="perro">Perros</label>
+            <input id="perro" name="perro" type="checkbox">
+            <label for="gato">Gatos</label>
+            <input id="gato" name="gato" type="checkbox">
+            <br><br>
+            <label for="descrip">Cuéntanos sobre tus mascotas:</label>
+            <br>
+            <textarea id="descrip" name="descrip" rows="4" cols="25"></textarea>
+            <br><br>
+            <label for="vistapag">¿Viste la página?</label>
+            <br>
+            <input id="entera" name="pagina" type="radio">
+            <label for="entera">Vi la página entera</label>
+            <br>
+            <input id="parcial" name="pagina" type="radio">
+            <label for="parcial">Vi una parte</label>
+            <br><br>
+            <button type="submit">Enviar</button>
+            <br><br>
+            <a href="paginaPrincipal.html">Volver a la página principal</a>
+        </fieldset>
+    </form>
+</body>
+
+</html>

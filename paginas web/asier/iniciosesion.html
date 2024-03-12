@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <title>Mi documento web</title>
+        <style>
+  /* Estilos para el cuerpo de la página */
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0;
+    font-family: 'Arial', sans-serif; /* Fuente elegante */
+}
+
+/* Estilos para el formulario */
+form {
+    width: 400px; /* Ancho del formulario */
+    padding: 30px; /* Espacio interno */
+    border-radius: 15px; /* Bordes redondeados */
+    background-color: #fff; /* Fondo blanco */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1); /* Sombra suave */
+}
+
+/* Estilos para el conjunto de campos */
+fieldset {
+    border: none; /* Sin borde */
+    padding: 0;
+    margin-bottom: 30px; /* Espacio inferior */
+}
+
+/* Estilos para la leyenda */
+legend {
+    font-size: 28px; /* Tamaño de fuente grande */
+    font-weight: bold; /* Texto en negrita */
+    color: #068099; /* Color del texto */
+    margin-bottom: 20px; /* Espacio inferior */
+}
+
+/* Estilos para las etiquetas */
+label {
+    font-size: 18px; /* Tamaño de fuente grande */
+    display: block; /* Muestra en bloque */
+    margin-bottom: 10px; /* Espacio inferior */
+    color: #333; /* Color del texto */
+}
+
+/* Estilos para los campos de entrada */
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="date"],
+input[type="checkbox"] {
+    width: calc(100% - 10px); /* Ancho ajustado */
+    padding: 12px; /* Relleno */
+    margin-bottom: 20px; /* Espacio inferior */
+    border: 1px solid #ccc; /* Borde delgado */
+    border-radius: 5px; /* Bordes redondeados */
+    font-size: 16px; /* Tamaño de fuente */
+}
+
+/* Estilos para los botones */
+button {
+    width: 100%; /* Ancho completo */
+    padding: 15px; /* Relleno */
+    background-color: green; /* Color de fondo */
+    color: #fff; /* Color del texto */
+    border: none; /* Sin borde */
+    border-radius: 5px; /* Bordes redondeados */
+    cursor: pointer; /* Cursor apuntador */
+    font-size: 18px; /* Tamaño de fuente */
+    transition: background-color 0.3s; /* Transición suave */
+}
+
+/* Estilos para el botón al pasar el ratón */
+button:hover {
+    background-color: green; /* Cambia de color al pasar el ratón */
+}
+
+/* Estilos para el enlace */
+a {
+    font-size: 16px; /* Tamaño de fuente */
+    text-decoration: none; /* Sin subrayado */
+    color: green; /* Color del texto */
+    transition: color 0.3s; /* Transición suave */
+}
+
+/* Estilos para el enlace al pasar el ratón */
+a:hover {
+    color: green; /* Cambia de color al pasar el ratón */
+}
+
+
+        </style>
+    </head>
+    <body>
+        <form>
+            <fieldset>
+            <label for="usuario">Usuario</label>
+            <input id="usuario" name="usuario" type="text">
+            <br><br>
+            <label for="password">Contraseña:</label>
+            <input id="password" name="contraseña" type="password">
+            <br><br>
+            <button type="submit">Iniciar sesión</button>
+            <p>¿No tienes cuenta?</p>
+            <a href="registrarse.html">Resgistrate aquí</a>
+            </fieldset>
+        </form>
+    </body>
+</html>
