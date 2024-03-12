@@ -1,4 +1,9 @@
 /* Estilos usados por Juan Ramon*/
-.JuanRamon{
-    font-size: 20px;
+a{
+    font-size: 30px;
 }
+
+p.JuanRamon:hover{
+    color:red;
+}
+
