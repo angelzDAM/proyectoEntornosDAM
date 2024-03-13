@@ -1,0 +1,12 @@
+Guíon Juan Ramon:
+
+- Página sobre viajes, sencilla y facil de entender
+- Una página donde puedas seleccionar el destino al que quieres ir, junto a su precio y una breve descripcion.
+- Un sobre nosotros donde se vea un contacto para poder contactar con ellos, tambien incluidas las redes sociales.
+- Una página de contacto donde tengas que poner tu nombre, tu email y un breve mensaje.
+- Una página de inicio de sesión donde haya un boton de registrarse o un boton de si te has olvidado la contraseña
+- Cuando le des al boton de Registrarse te envié a un formulario de registro donde se pida el nombre, apellido, correo, contraseña, el genero con checkmark, terminos y condiciones con checkbox y publicidad.
+- Que todos estos campos sean necesarios para hacer el registro.
+- Cuando le des a la imagen del logo te lleve a la página principal.
+- Un logo minimalista.
+- En el vuelo seleccionado quiero su precio, una breve descripción y un boton para reservar el vuelo, si no estas logeado que te haga logear o registrate.
