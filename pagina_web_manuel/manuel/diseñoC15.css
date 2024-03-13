@@ -1,0 +1,60 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url(fondo.jpg);
+}
+
+#tittleC15{
+    color:teal;
+    font-size:xx-large;
+}
+
+#subtC15{
+    color: cadetblue;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: x-large;
+}
+
+#parrafo{
+    color: white;
+}
+
+#parr1C15{
+    float:inline-end;
+    font-size:larger;
+
+}
+
+#parr2C15{
+    font-size: medium;
+
+}
+
+#parr3C15{
+    font-size: medium;
+}
+
+.imgC15{
+    height: 200px;
+    width: 300px;
+    position:static;
+    display: block;
+    margin: 0 auto;
+}
+
+#checkboxC15{
+
+}
+
+#videoC15{
+    width: 30%;
+    height: auto;
+    display: block;
+    margin: auto;
+}
+
+#logoCitroen{
+    float: right;
+    height: 75px;
+    width: 125px;
+    margin: auto;
+}

@@ -1,0 +1,21 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url(fondo.jpg);
+}
+
+#fodo_logo{
+    top: 35px;
+    height: 200px;
+    width: 1000px;
+    position:relative;
+    display: block;
+    margin: 10px auto;
+}
+#parrafo{
+    color: white;
+}
+
+#img{
+    height: 500px;
+    width: 1000px;
+}
