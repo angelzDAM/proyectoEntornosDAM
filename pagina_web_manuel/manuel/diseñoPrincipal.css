@@ -1,0 +1,95 @@
+body {
+  font-family: Arial, sans-serif;
+  background-image: url(fondo.jpg);
+}
+
+
+.todo {
+  margin-top: 40px;
+}
+
+
+  nav ul {
+    list-style-type: none;
+    padding: 0;
+  }
+
+  nav ul li {
+    display: inline-block;
+    margin-right: 20px;
+    width: auto;    
+  }
+
+  nav ul li a {
+    text-decoration: none;
+    color: white;
+  }
+
+  .desplegable ul {
+    display: none;
+    position: absolute;
+    background-color: #FF6C00;
+    min-width: 160px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    z-index: 1;
+    
+  }
+
+  .desplegable:hover ul {
+    display: block;
+    
+  }
+
+  .desplegable ul li {
+    display: block;
+  }
+
+  #contacto{
+    color: white;
+  }
+  #listaContactos{
+    display: none;
+    float:inline-end
+  }
+
+  #registro{
+    margin-top: 75px;
+    color: #FF6C00;
+    float: right;
+    bottom: -150px;
+    position: relative;
+  }
+
+  #indice{
+    border-style: solid;
+    border-color:grey;
+    border-radius: 15px;
+    width: 500px;
+    padding: 15px;
+    margin: 0 auto;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.466);
+    height: 40px;
+    position: absolute;
+    top: 50px;
+    left: 250px;
+  }
+
+#logo{
+  width: 75px;
+    height: 75px;
+  position: relative;
+    top: 0;
+    left: 0;
+    width: 200px;
+    height: auto;
+}
+
+#cochefondo{
+  position: relative;
+}
+
+#anuncio{
+  height: 150px;
+  width: 350px;
+}

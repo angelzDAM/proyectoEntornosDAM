@@ -1,0 +1,46 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url(fondo.jpg);
+}
+#backgSEAT{
+    background-color:darkgray;
+}
+
+#tittleSEAT{
+    color:teal;
+    font-size:xx-large;
+}
+
+#subtSEAT{
+    color: cadetblue;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: x-large;
+}
+
+#parrafo{
+    color: white;
+}
+
+#parr1SEAT{float:inline-end;
+    font-size:larger;
+
+}
+
+#parr2SEAT{font-size: medium;
+
+}
+
+#imgSEAT{
+    height: 200px;
+    width: 300px;
+    position:static;
+    display: block;
+    margin: 0 auto;
+}
+
+#logoSeat{
+    float: right;
+    height: 75px;
+    width: 125px;
+    margin: auto;
+}
